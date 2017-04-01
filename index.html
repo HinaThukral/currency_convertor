@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Currency Converter</title>
+    <style>
+        body{
+            background-color:orange;
+        }
+        
+    </style>
+
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Currency Convertor</h1>
+	<form name="currentform">
+		<label for="">Select Base</label><br/>
+		<select name="currency1" id="currency1">
+			<option value="AUD">AUD</option>
+			<option value="BGN">BGN</option>
+			<option value="BRL">BRL</option>
+			<option value="CAD">CAD</option>
+			<option value="CHF">CHF</option>
+			<option value="CNY">CNY</option>
+			<option value="CZK">CZK</option>
+			<option value="DKK">DKK</option>
+			<option value="GBP">GBP</option>
+			<option value="HKD">HKD</option>
+			<option value="HRK">HRK</option>
+			<option value="HUF">HUF</option>
+			<option value="IDR">IDR</option>
+			<option value="ILS">ILS</option>
+			<option value="INR">INR</option>
+			<option value="JPY">JPY</option>
+			<option value="KRW">KRW</option>
+			<option value="MXN">MXN</option>
+			<option value="MYR">MYR</option>
+			<option value="NOK">NOK</option>
+			<option value="NZD">NZD</option>
+			<option value="PHP">PHP</option>
+			<option value="PLN">PLN</option>
+			<option value="RON">RON</option>
+			<option value="RUB">RUB</option>
+			<option value="SEK">SEK</option>
+			<option value="SGD">SGD</option>
+			<option value="THB">THB</option>
+			<option value="TRY">TRY</option>
+			<option value="USD">USD</option>
+			<option value="ZAR">ZAR</option>
+			<option value="RUB">RUB</option>
+		</select><br/><br/>
+		<label for="">Select country in which you want to convert</label><br/>
+		<select name="currency2" id="currency2">
+			<option value="AUD">AUD</option>
+			<option value="BGN">BGN</option>
+			<option value="BRL">BRL</option>
+			<option value="CAD">CAD</option>
+			<option value="CHF">CHF</option>
+			<option value="CNY">CNY</option>
+			<option value="CZK">CZK</option>
+			<option value="DKK">DKK</option>
+			<option value="GBP">GBP</option>
+			<option value="HKD">HKD</option>
+			<option value="HRK">HRK</option>
+			<option value="HUF">HUF</option>
+			<option value="IDR">IDR</option>
+			<option value="ILS">ILS</option>
+			<option value="INR">INR</option>
+			<option value="JPY">JPY</option>
+			<option value="KRW">KRW</option>
+			<option value="MXN">MXN</option>
+			<option value="MYR">MYR</option>
+			<option value="NOK">NOK</option>
+			<option value="NZD">NZD</option>
+			<option value="PHP">PHP</option>
+			<option value="PLN">PLN</option>
+			<option value="RON">RON</option>
+			<option value="RUB">RUB</option>
+			<option value="SEK">SEK</option>
+			<option value="SGD">SGD</option>
+			<option value="THB">THB</option>
+			<option value="TRY">TRY</option>
+			<option value="USD">USD</option>
+			<option value="ZAR">ZAR</option>
+			<option value="RUB">RUB</option>
+		</select><br/><br/>
+		<label for="">Enter Amount</label><br/>
+		<input type="text" name="amount" id="conversionRate"/><br/><br/>
+		<input type="button" id="button" value="Convert" name="button" onClick="getConversionRate()" /><br/><br/>
+		<label for="">Output</label><br/>
+		<input type="text" name="output" id="output"/>
+	</form>
+</body>
+</html>
